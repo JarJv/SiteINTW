@@ -1,11 +1,12 @@
 body{
 	background-color: #C0C0C0;
-	font-family: cursive, sans-serif ;
+	font-family: 'Amatic SC', cursive; 
 }
 
 .header{
 	background-color: rgba(95,158,160, 80%);
 	padding: 15px;
+	font-weight: bold;
 }
 
 .navegation{
@@ -90,15 +91,16 @@ h1{
 	color: 	#008B8B;
 	margin-top: 2%;
 	margin-bottom: 2%;
-	font-size: 30px;
+	font-size: 38px;
 	text-align: center;
+	font-weight: bold;
 }
 
 h2{
 	text-align: center;
 	margin-top: 2%;
 	margin-bottom: 2%;
-	font-size: 24px;
+	font-size: 32px;
 	font-weight: bold;
 }
 
@@ -106,15 +108,16 @@ h3{
 	color: #7FFFD4;
 	margin-bottom: 1%;
 	margin-top: 1%; 
-	font-size: 24px;
+	font-size: 32px;
 	text-align: center;
+	font-weight: bold;
 }
 
 h4{
 	text-align: center;
 	margin-top: 2%;
 	margin-bottom: 2%;
-	font-size: 20px;
+	font-size: 28px;
 	font-weight: bold;
 }
 
@@ -122,7 +125,7 @@ h5{
 	text-align: right;
 	margin-top: 2%;
 	margin-bottom: 2%;
-	font-size: 20px;
+	font-size: 28px;
 	font-weight: bold;
 	margin-right: 2%;
 }
@@ -130,8 +133,9 @@ h5{
 p{
 	margin-bottom: 1%;
 	margin-top: 1%; 
-	font-size: 20px;
+	font-size: 28px;
 	text-align: justify;
+	font-weight: bold;
 }
 
 .button{
@@ -142,7 +146,7 @@ p{
 	border: none;
 	border-radius: 3px;
 	font-size: 16px;
-	font-family: cursive, sans-serif ;
+	font-family: 'Amatic SC', cursive ;
 }
 
 .button:hover{
@@ -167,10 +171,10 @@ p{
   background-color: #7FFFD4;
   color: #008080;
   padding: 20px;
-  font-size: 16px;
+  font-size: 24px;
   border: none;
   cursor: pointer;
-  font-family: cursive, sans-serif;
+  font-family: 'Amatic SC', cursive;
   border-radius: 3px;
   margin-left: 2px;
 }
@@ -194,8 +198,8 @@ p{
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  font-size: 16px;
-  font-family: cursive, sans-serif;
+  font-size: 24px;
+  font-family: 'Amatic SC', cursive;
 }
 
 .dropdown-content a:hover {
