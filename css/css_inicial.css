@@ -1,16 +1,22 @@
+html{
+	scroll-behavior: smooth;
+}
+
 body{
 	background-color: #C0C0C0;
-	font-family: 'Amatic SC', cursive; 
+	font-family: 'Girassol', cursive;
 }
 
 .header{
-	background-color: rgba(95,158,160, 80%);
-	padding: 15px;
+	background-color: #fff;
+	padding: 40px;
 	font-weight: bold;
+	color: #F2CC0C;
+	position: relative;
 }
 
 .navegation{
-	background-color: #20B2AA;
+	background-color: #BF7E04;
 }
 
 .container{
@@ -22,7 +28,7 @@ body{
 }
 
 .footer{
-	background-color: #20B2AA;
+	background-color: #BF7E04;
 	padding: 2px;
 	text-align: center;
 }
@@ -41,7 +47,7 @@ body{
 
 .section:hover{
 	padding: 20px;
-	background-color: #7FFFD4;
+	background-color: #A63F03;
 	width: 80%;
 	border-radius: 20px;
 	display: inline-block;
@@ -66,7 +72,7 @@ body{
 
 .section2:hover{
 	padding: 20px;
-	background-color: #7FFFD4;
+	background-color: #A63F03;
 	width: 40%;
 	border-radius: 20px;
 	display: inline-block;
@@ -79,36 +85,36 @@ body{
 
 .section_aviso{
 	padding: 20px;
-	background-color: #7FFFD4;
+	background-color: #F2CC0C;
 	width: 80%;
 	border-radius: 20px;
 	display: inline-block;
 	margin-left: 9%;
 	margin-bottom: 2%;
+	margin-top: 1%;
 }
 
 h1{
-	color: 	#008B8B;
+	color: 	#BF7E04;
 	margin-top: 2%;
 	margin-bottom: 2%;
-	font-size: 38px;
+	font-size: 34px;
 	text-align: center;
-	font-weight: bold;
+
 }
 
 h2{
 	text-align: center;
 	margin-top: 2%;
 	margin-bottom: 2%;
-	font-size: 32px;
-	font-weight: bold;
+	font-size: 28px;
 }
 
 h3{
-	color: #7FFFD4;
+	color: #BF7E04;
 	margin-bottom: 1%;
 	margin-top: 1%; 
-	font-size: 32px;
+	font-size: 28px;
 	text-align: center;
 	font-weight: bold;
 }
@@ -117,7 +123,7 @@ h4{
 	text-align: center;
 	margin-top: 2%;
 	margin-bottom: 2%;
-	font-size: 28px;
+	font-size: 24px;
 	font-weight: bold;
 }
 
@@ -125,7 +131,7 @@ h5{
 	text-align: right;
 	margin-top: 2%;
 	margin-bottom: 2%;
-	font-size: 28px;
+	font-size: 24px;
 	font-weight: bold;
 	margin-right: 2%;
 }
@@ -133,9 +139,8 @@ h5{
 p{
 	margin-bottom: 1%;
 	margin-top: 1%; 
-	font-size: 28px;
+	font-size: 22px;
 	text-align: justify;
-	font-weight: bold;
 }
 
 .button{
@@ -146,7 +151,7 @@ p{
 	border: none;
 	border-radius: 3px;
 	font-size: 16px;
-	font-family: 'Amatic SC', cursive ;
+	font-family: 'Girassol', cursive;
 }
 
 .button:hover{
@@ -168,13 +173,13 @@ p{
 }
 
 .dropbtn {
-  background-color: #7FFFD4;
-  color: #008080;
+  background-color: #F2CC0C;
+  color: #BF7E04;
   padding: 20px;
-  font-size: 24px;
+  font-size: 22px;
   border: none;
   cursor: pointer;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Girassol', cursive;
   border-radius: 3px;
   margin-left: 2px;
 }
@@ -198,13 +203,13 @@ p{
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'Amatic SC', cursive;
 }
 
 .dropdown-content a:hover {
-	background-color: #7FFFD4;
-	color: #008080;
+	background-color: #A63F03;
+	color: #F2CC0C;
 }
 
 .dropdown:hover .dropdown-content {
@@ -212,18 +217,18 @@ p{
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #008080;
-  color: #7FFFD4;
+  background-color: #A63F03;
+  color: #F2CC0C;
 }
 
 a:link{
-	color: #7B68EE;
+	color: #D9D9D9;
 	text-decoration:none;
 	cursor: auto;
 }
 
 a:hover{
-	color: #DC143C;
+	color: #D9A407;
 	text-decoration:underline;
 	cursor: pointer;
 }
@@ -235,20 +240,20 @@ a:active{
 }
 
 a:visited{
-	color: 	#008B8B;
+	color: 	#A63F03;
 	text-decoration:underline;
 	cursor: auto;
 }
 
 @keyframes seções_abertas{
 	0%{
-		background-color: #7FFFD4;
+		background-color: #F2CC0C;
 		box-shadow: 0px 0px 0px #000;
 		transform: translateY(0px); 
 	}
 
 	100%{
-		background-color: #2F4F4F;
+		background-color: #BF7E04;
 		box-shadow: 0px -8px 8px #000;
 		transform: translateY(8px); 
 		color: #fff;
@@ -257,15 +262,16 @@ a:visited{
 
 @keyframes seções_fechadas{
 	0%{
-		background-color: #2F4F4F;
+		background-color: #BF7E04;
 		box-shadow: 0px -8px 8px #000;
 		transform: translateY(8px);
 		color: #fff; 
 	}
 
 	100%{
-		background-color: #7FFFD4;
+		background-color: #F2CC0C;
 		box-shadow: 0px 0px 0px #000;
 		transform: translateY(0px);
 	}
 }
+
