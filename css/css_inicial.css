@@ -5,18 +5,44 @@ html{
 body{
 	background-color: #C0C0C0;
 	font-family: 'Girassol', cursive;
+
 }
 
-.header{
-	background-color: #fff;
-	padding: 40px;
+header{
+	background-color: #D0D0D0;
+	padding: 5px;
 	font-weight: bold;
 	color: #F2CC0C;
 	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.navegation{
-	background-color: #BF7E04;
+.menu-opcoes{
+	text-align: center;
+}
+
+.fixo{
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+	}
+
+.contimg{
+	display: inline-block;
+	position: relative;
+}
+
+.ajustes{
+	line-height: 1;
+	text-align: center;
+}
+
+.ajustes li:hover{
+	background-color: ;
 }
 
 .container{
@@ -25,12 +51,63 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	padding: 4px;
+	margin-top:3%; 
+	position: relative;
 }
 
 .footer{
 	background-color: #BF7E04;
 	padding: 2px;
 	text-align: center;
+}
+
+/*maior que 599px*/
+@media screen and (max-width: 599px){
+	.container{
+		margin-top: 60%;
+	}
+
+	header{
+		background-color: rgba(217, 217, 217, 0.9);
+		font-size: 20px;
+	}
+}
+
+/*maior que 600px*/
+@media screen and ( min-width: 600px){
+	.container{
+		margin-top: 52%;
+	}
+
+	header{
+		background-color: rgba(217, 217, 217, 0.9);
+		font-size: 20px;
+	}
+}
+
+/*maior que 768px*/
+@media screen and (min-width: 768px){
+	.container{
+		margin-top: 10%;
+	}
+
+	header{
+		background-color: rgba(217, 217, 217, 0.9);
+		flex-direction: row;
+		font-size: 26px;
+		position: relative;
+	}
+
+	.menu-opcoes{
+		position: absolute;
+		right: 5%;
+		top: 45%;
+	}
+
+	.menu-opcoes ul li{
+		display: inline;
+		margin-left: 20px;
+	}
 }
 
 .section{
